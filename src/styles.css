@@ -1,0 +1,135 @@
+.netlifyLink {
+  text-align: center;
+  position: relative;
+  bottom: -200px;
+}
+.githubLink {
+  text-align: center;
+  position: relative;
+  bottom: -200px;
+}
+.container {
+  border: 2px solid black;
+  margin-top: 100px;
+  height: 540px;
+  width: auto;
+}
+.citySearchField {
+  text-align: center;
+}
+form {
+  text-align: center;
+  position: relative;
+  top: -150px;
+  font-size: 25px;
+}
+h2 {
+  text-align: right;
+  position: relative;
+  top: -200px;
+}
+.mondayHeading {
+  position: relative;
+  top: -50px;
+  left: 45px;
+}
+.monday {
+  border: 2px solid black;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -50px;
+  left: 20px;
+}
+.tuesdayHeading {
+  position: relative;
+  top: -240px;
+  left: 305px;
+}
+.tuesday {
+  border: 2px solid black;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -240px;
+  left: 280px;
+}
+.wednesdayHeading {
+  position: relative;
+  top: -430px;
+  left: 566px;
+}
+.wednesday {
+  border: 2px solid black;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -430px;
+  left: 560px;
+}
+.thursdayHeading {
+  position: relative;
+  top: -623px;
+  left: 848px;
+}
+.thursday {
+  border: 2px solid black;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -623px;
+  left: 830px;
+}
+.fridayHeading {
+  position: relative;
+  top: -815px;
+  left: 1135px;
+}
+.friday {
+  border: 2px solid black;
+  border-radius: 100px;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  top: -815px;
+  left: 1100px;
+}
+.mondayTemperatures {
+  position: absolute;
+  top: 590px;
+  left: 337px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.tuesdayTemperatures {
+  position: absolute;
+  top: 590px;
+  left: 602px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.wednesdayTemperatures {
+  position: absolute;
+  top: 590px;
+  left: 883px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.thursdayTemperatures {
+  position: absolute;
+  top: 590px;
+  left: 1153px;
+  font-size: 30px;
+  font-weight: 500;
+}
+.fridayTemperatures {
+  position: absolute;
+  top: 590px;
+  left: 1424px;
+  font-size: 30px;
+  font-weight: 500;
+}

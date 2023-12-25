@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import "./styles.css";
+import City from "./City.js";
+import DayMonthTime from "./DayMonthTime";
+import Search from "./Search";
+import WeekdayHeadings from "./WeekdayHeadings";
+import WeekdayTemps from "./WeekdayTemps";
+import Netlify from "./Netlify";
+import Github from "./Github";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div class="container">
+        <City />
+        <Search />
+        <DayMonthTime />
+        <WeekdayHeadings />
+        <WeekdayTemps />
+      </div>
+      <Netlify />
+      <Github />
     </div>
   );
 }
-
-export default App;
